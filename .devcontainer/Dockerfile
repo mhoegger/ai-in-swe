@@ -4,5 +4,6 @@ FROM node:lts-alpine
 RUN npm install -g http-server
 
 RUN apk add --no-cache git
+RUN apk add --no-cache npm
 
 EXPOSE 8080
