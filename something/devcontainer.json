@@ -3,7 +3,6 @@
         "dockerfile": "Dockerfile"
     },
     "extensions": [
-        "easycodeai.chatgpt-gpt4-gpt3-vscode"
 	],
     "containerUser": "datascientist"
 }
