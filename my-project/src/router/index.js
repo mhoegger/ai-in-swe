@@ -16,6 +16,16 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
   },
+  // add a route to views/TodoListView
+  // the route should be /todo
+  // the name should be todo
+  // the component should be TodoListView
+  {
+    path: "/todo",
+    name: "todo",
+    component: () =>
+      import(/* webpackChunkName: "todo" */ "../views/TodoListView.vue"),
+  },
 ];
 
 const router = createRouter({
