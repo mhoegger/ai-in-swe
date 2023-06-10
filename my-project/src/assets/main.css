@@ -1,0 +1,49 @@
+/* main.css */
+
+/* Global Styles */
+body {
+    background-color: #fff;
+    color: #777;
+  }
+  
+  /* Typography */
+  h1, h2, h3, h4, h5, h6 {
+    color: #cc061e;
+  }
+  
+  /* Buttons */
+  .btn {
+    background-color: #cc061e;
+    color: #fff;
+  }
+  
+  /* Forms */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    border: 1px solid #cc061e;
+  }
+  
+  /* Links */
+  a {
+    color: #cc061e;
+  }
+  
+  /* Card */
+  .card {
+    background-color: #fff;
+    color: #777;
+    border: 1px solid #ccc;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #cc061e;
+    color: #fff;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #cc061e;
+    color: #fff;
+  }
